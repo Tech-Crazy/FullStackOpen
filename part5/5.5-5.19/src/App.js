@@ -100,7 +100,7 @@ function App() {
       <Notification error = {errorMessage} />
       {user === null? loginForm(): 
       <Togglable>
-        <BlogForm ref = {blogRef} user = {user} title = {title} author = {author} url = {url} onSubmit = {addBlog} handleTitle = {handleTitle} handleAuthor = {handleAuthor} handleUrl = {handleUrl} />
+        <BlogForm ref = {blogRef} user = {user} title = {title} author = {author} url = {url} onSubmit = {addBlog} handleTitle = {handleTitle} handleAuthor = {handleAuthor} handleUrl = {handleUrl} handleLogut = {handleLogout} blogsToShow = {blogsToShow} />
       </Togglable>}
       {blogsToShow}
       <button onClick = {handleLogout}>Logout</button>

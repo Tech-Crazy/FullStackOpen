@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "email": "techcrazy@gmail.com",
+      "password": "$2a$10$3PH1YMf4mraca1DvI.lTEOUZj3Z8fJFXxO11SPpA6RAAWCpzfB/aG",
+      "name": "Abhishek Prashant",
+      "id": 1
+    },
+    {
+      "email": "artohellas@gmail.com",
+      "password": "$2a$10$h2o5iddy2vmocVTo3QY32ulZ6XHSLLWYm2PnvsDbvmAzohsSbnERu",
+      "name": "Arto Hellas",
+      "id": 2
+    },
+    {
+      "email": "danabramov@gmail.com",
+      "password": "$2a$10$ERKS6/RCvlbljoGt5UR/A.UXFpgYdko0pENW9VnFZ.jOZ8u0nundS",
+      "name": "Dan Abramov",
+      "id": 3
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Microservices",
+      "likes": 3,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Things I Don't Know as of 2018",
+      "likes": 2,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "You're NOT gonna need it",
+      "likes": 0,
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "title": "Our learnings from adopting GraphQL",
+      "likes": 1,
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "title": "The single responsibility principle",
+      "likes": 0,
+      "userId": 1
+    },
+    {
+      "id": 6,
+      "title": "React Testing with react-testing library",
+      "likes": 0,
+      "userId": 1
+    },
+    {
+      "id": 7,
+      "title": "Fullstack Open 2019",
+      "likes": 10,
+      "userId": 2
+    },
+    {
+      "id": 8,
+      "title": "Hello World",
+      "likes": 5,
+      "userId": 2
+    }
+  ]
+}

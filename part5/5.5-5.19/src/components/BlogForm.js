@@ -1,8 +1,8 @@
 import React, {useImperativeHandle, useState} from 'react'
 import PropTypes from 'prop-types'
-import SuccessMessage from './components/successblog'
+import SuccessMessage from './successblog'
 
-const BlogForm = React.forwardRef(({user, title, author, url, onSubmit, handleTitle, handleAuthor, handleUrl}, ref) => {
+const BlogForm = React.forwardRef(({user, title, author, url, onSubmit, handleTitle, handleAuthor, handleUrl, handleLogout, blogsToShow}, ref) => {
 
     const [success, setSuccess] = useState(null)
 
